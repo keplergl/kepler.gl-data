@@ -8,8 +8,8 @@
     "detail": "The dataset contains two hours of flight data collected using the live API of [OpenSky Network](https://opensky-network.org). The color of the flights is based on country of origin. 18 thousands flights are recorded during the two hour period. The path drops over the seas due to lack of satellite coverage. Airline info is added to each flight by joining with data from [airlinecodes.co.uk](http://www.airlinecodes.co.uk/callsignres.asp?callsign=&submit=Submit)",
     "size": 12938,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/world_flights/config_soei4h.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/config_soei4h.json"
   },
   {
     "id": "earthquakes",
@@ -20,8 +20,8 @@
     "detail": "The dataset contains a list of 2.5+ magnitude earthquakes in california. Information was generated using USGS website and contains multiple properties (location, magnitude, magtype) for each single entry. Data source: [USGS](https://earthquake.usgs.gov/data/data.php)",
     "size": 54936,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/earthquakes/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/earthquakes/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/earthquakes/config.json"
   },
   {
     "id": "nyctrips",
@@ -32,8 +32,8 @@
     "detail": "The yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. Data is downloaded from [NYC Taxi and Limousine Commission (TLC)](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) website.",
     "size": 97986,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyctrips/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyctrips/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyctrips/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyctrips/config.json"
   },
   {
     "id": "sfcontour",
@@ -44,8 +44,8 @@
     "detail": "This dataset contains elevation contours for San Francisco mainland and Treasure Island/Yerba Island. Based on San Francisco Elevation Datum. Data source: [DataSF](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq/data).",
     "size": 13598,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sfcontour/data.json",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sfcontour/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sfcontour/data.json",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sfcontour/config.json"
   },
   {
     "id": "nyc_census",
@@ -55,8 +55,8 @@
     "description": "This dataset contains the 2010 Census tract population data of NYC.",
     "detail": "This dataset contains the 2010 Census tract map from [NYC Open Data](https://data.cityofnewyork.us/City-Government/2010-Census-Tracts/fxpq-c8ku/data), joined with [population](https://data.cityofnewyork.us/City-Government/New-York-City-Population-By-Census-Tracts/37cg-gxjd).",
     "size": 2166,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_census/data.json",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_census/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_census/data.json",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_census/config.json"
   },
   {
     "id": "sftrees",
@@ -67,8 +67,8 @@
     "detail": "This dataset contains a list of dpw maintained street trees including planting date, species and location. Data source: [DataSF](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq/data).",
     "size": 65499,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sftrees/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/sftrees/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sftrees/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sftrees/config.json"
   },
   {
     "id": "ukcommute",
@@ -79,8 +79,8 @@
     "detail": "This dataset shows location of residence and place of work, based on 2011 Census of residence of England and Wales. The data classifies people currently resident in each middle layer super output area, or higher area and shows the movement between their area of residence and workplace. Data source: [Nomis](https://www.nomisweb.co.uk/census/2011/wu03uk/chart)",
     "size": 679643,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/ukcommute/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/ukcommute/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/ukcommute/config.json"
   },
   {
     "id": "la_assessorparcels",
@@ -91,8 +91,8 @@
     "detail": "This dataset contains Valuation and property description for parcels on the Assessor's annual secured assessment rolls 2006 through 2017. This dataset excludes Cross Reference Rolls (89xx-series AssessorID). Data source: [County of Los Angeles Open Data](https://data.lacounty.gov/Parcel-/Assessor-Parcels-Data-2006-thru-2019/9trm-uz8i)",
     "size": 284554,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/la_assessorparcels/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/la_assessorparcels/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/la_assessorparcels/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/la_assessorparcels/config.json"
   },
   {
     "id": "movement_pittsburgh",
@@ -103,8 +103,8 @@
     "detail": "Uber Movement provides free and public access to travel times data derived from billions of Uber trips. Data is available under a Creative Commons Noncommercial Attribution License. Data source: [Uber Movement](https://movement.uber.com)",
     "size": 793,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/movement_pittsburgh/data.csv",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/movement_pittsburgh/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/movement_pittsburgh/data.csv",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/movement_pittsburgh/config.json"
   },
   {
     "id": "county_unemployment",
@@ -115,8 +115,8 @@
     "detail": " This dataset contains 2017 labor force information from the [Bureau of Labor Statistics](https://www.bls.gov/lau/#tables) joined with county shapefiles from the [Census Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html).",
     "size": 3220,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/county_unemployment/data.geojson",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/county_unemployment/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/county_unemployment/data.geojson",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/county_unemployment/config.json"
   },
   {
     "id": "usdot",
@@ -125,18 +125,18 @@
     "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/usdot/counties-unemployment.png",
     "description": "2017 Labor force information for U.S. Counties",
     "visible": false,
-    "keplergl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/usdot/keplergl.json"
+    "keplergl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/usdot/keplergl.json"
   },
   {
     "id": "nyc_earnings",
     "label": "Block-level Earnings New York City (GeoArrow)",
     "queryType": "sample",
-    "imageUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_earnings/nyc-earnings.png",
+    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/nyc-earnings.png",
     "description": "Block-level Earnings New York City (2002-14) from Longitudinal Employer-Household Dynamics (LEHD). Geographic units: 2010 Census blocks.",
     "detail": " This GeoArrow dataset contains block-level earnings data of New York City from 2002 to 2014. The map is a Quantile map based on the total number of jobs in year 2000-2002. Data is prepared by [the Center for Spatial Data Science at University of Chicago](https://spatial.uchicago.edu). Data source [page](https://geodacenter.github.io/data-and-lab/LEHD_Data/).",
     "size": 108487,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_earnings/data.arrow",
-    "configUrl": "https://raw.githubusercontent.com/uber-web/kepler.gl-data/master/nyc_earnings/config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/data.arrow",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/config.json"
   }
 ]
