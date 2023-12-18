@@ -8,7 +8,7 @@
           "id": "hkc2hq",
           "type": "geojson",
           "config": {
-            "dataId": "-svoeb1",
+            "dataId": "nyc_earnings",
             "label": "nyc",
             "color": [255, 203, 153],
             "highlightColor": [252, 242, 26, 255],
