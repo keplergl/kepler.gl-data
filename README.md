@@ -1,3 +1,5 @@
+> This repo is a friendly clone of Uber's original https://github.com/uber-web/kepler.gl-data repository. The main reason that clone was created is that kepler.gl has otherwise been donated to the OpenJS foundation, and the kepler.gl maintainers no longer have write and admin access to the Uber repo.
+
 The data provided in this repo is public and located at the following URLs:
 - [World Flights](./world_flights)
 
