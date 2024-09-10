@@ -110,23 +110,13 @@
       "isSplit": false
     },
     "mapStyle": {
-      "styleType": "vw22uhl",
+      "styleType": "dark-matter-nolabels",
       "topLayerGroups": {},
       "visibleLayerGroups": {
         "label": false,
         "road": false,
         "building": true,
         "water": true
-      },
-      "mapStyles": {
-        "vw22uhl": {
-          "accessToken": "pk.eyJ1IjoidWJlcmRhdGEiLCJhIjoidGllX1gxUSJ9.gElUooDF7u51guCQREmAhg",
-          "custom": true,
-          "icon": "https://api.mapbox.com/styles/v1/uberdata/ck14353fm0vml1dqttzcnzgm7/static/-122.3391,37.7922,9,0,0/400x300?access_token=pk.eyJ1IjoidWJlcmRhdGEiLCJhIjoidGllX1gxUSJ9.gElUooDF7u51guCQREmAhg&logo=false&attribution=false",
-          "id": "vw22uhl",
-          "label": "Kepler.gl Flight Map",
-          "url": "mapbox://styles/uberdata/ck14353fm0vml1dqttzcnzgm7"
-        }
       }
     }
   }
