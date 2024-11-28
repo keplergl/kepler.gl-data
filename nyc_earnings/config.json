@@ -125,7 +125,7 @@
       "splitMapViewports": []
     },
     "mapStyle": {
-      "styleType": "dark",
+      "styleType": "dark-matter",
       "topLayerGroups": { "label": true },
       "visibleLayerGroups": {
         "label": true,
