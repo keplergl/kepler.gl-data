@@ -107,7 +107,7 @@
       "isSplit": false
     },
     "mapStyle": {
-      "styleType": "light",
+      "styleType": "voyager",
       "topLayerGroups": {},
       "visibleLayerGroups": {
         "label": false,

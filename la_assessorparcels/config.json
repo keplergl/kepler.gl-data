@@ -223,7 +223,7 @@
       "isSplit": true
     },
     "mapStyle": {
-      "styleType": "light",
+      "styleType": "voyager",
       "topLayerGroups": {
         "label": true
       },
