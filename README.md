@@ -15,7 +15,7 @@ The data provided in this repo is public and located at the following URLs:
 
 - [San Francisco elevation contour](./sfcontour)
 
-  This dataset contains elevation contours for San Francisco mainland and Treasure Island/Yerba Island. Based on San Francisco Elevation Datum. Data source: [DataSF](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq/data).
+  This dataset contains elevation contours for San Francisco mainland and Treasure Island/Yerba Island. Based on San Francisco Elevation Datum. Data source: [DataSF](https://data.sfgov.org/-/Elevation-Contours/6d73-6c4f/about_data).
 
 - [New york city population by census tract](./nyc_census)
 
