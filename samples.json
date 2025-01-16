@@ -138,5 +138,17 @@
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/data.arrow",
     "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/config.json"
+  },
+  {
+    "id": "fsq_places",
+    "label": "Foursquare Places (PMTiles)",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/fsq-places.png",
+    "description": "All 100M+ open source places of Foursquare in a single PMTiles file.",
+    "detail": "All 100M+ open source places of Foursquare in a single PMTiles file. Data source [page](https://location.foursquare.com/products/places/), prepared by [page](https://github.com/wipfli/foursquare-os-places-pmtiles)",
+    "size": 100000000,
+    "visible": false,
+    "dataUrl": "https://wipfli.github.io/foursquare-os-places-pmtiles",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/config.json"
   }
 ]
