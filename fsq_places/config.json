@@ -28,15 +28,6 @@
         "water": true
       }
     },
-    "queryStatus": {
-      "pastQueries": [
-        {
-          "color": [143, 47, 191],
-          "id": "gm9pbodlq",
-          "label": "sf_contour.geo.json"
-        }
-      ]
-    },
     "visState": {
       "filters": [],
       "interactionConfig": {
@@ -47,7 +38,7 @@
         "tooltip": {
           "enabled": false,
           "fieldsToShow": {
-            "plxv00lyb": [
+            "fsq_places": [
               { "name": "address", "format": null },
               { "name": "admin_region", "format": null },
               { "name": "country", "format": null },
@@ -63,7 +54,7 @@
           "id": "t3frjce",
           "type": "vectorTile",
           "config": {
-            "dataId": "plxv00lyb",
+            "dataId": "fsq_places",
             "label": "FSQ Places PMTiles",
             "color": [248, 149, 112],
             "highlightColor": [252, 242, 26, 255],
