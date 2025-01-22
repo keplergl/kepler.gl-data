@@ -1,6 +1,7 @@
 > This repo is a friendly clone of Uber's original https://github.com/uber-web/kepler.gl-data repository. The main reason that clone was created is that kepler.gl has otherwise been donated to the OpenJS foundation, and the kepler.gl maintainers no longer have write and admin access to the Uber repo.
 
 The data provided in this repo is public and located at the following URLs:
+
 - [World Flights](./world_flights)
 
   The dataset contains two hours of flight data collected using the live API of [OpenSky Network](https://opensky-network.org). The color of the flights is based on country of origin. 18 thousands flights are recorded during the two hour period. The path drops over the seas due to lack of satellite coverage. Airline info is added to each flight by joining with data from [airlinecodes.co.uk](http://www.airlinecodes.co.uk/callsignres.asp?callsign=&submit=Submit)
@@ -43,3 +44,11 @@ The data provided in this repo is public and located at the following URLs:
 - [Block-level Earnings New York City (GeoArrow)](./nyc_earnings)
 
   This GeoArrow dataset contains block-level earnings data of New York City from 2002 to 2014. The map is a Quantile map based on the total number of jobs in year 2000-2002. Data is prepared by [the Center for Spatial Data Science at University of Chicago](https://spatial.uchicago.edu). Data source: [CSDS](https://geodacenter.github.io/data-and-lab/LEHD_Data/).
+
+- [Foursquare Places (PMTiles)](./fsq_places)
+
+  All 100M+ open source places of Foursquare in a single PMTiles file. Data source [FSQ](https://location.foursquare.com/products/places/), prepared by [wipfli](https://github.com/wipfli/foursquare-os-places-pmtiles).
+
+- [Population tileset (MVT)](./mvt_population)
+
+  USA Population Mapbox Vector Tiles with total population per geometry and age statistics. Data source [census.gov](https://www.census.gov/data/datasets.html), prepared and hosted by [FSQ](https://location.foursquare.com)
