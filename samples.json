@@ -147,7 +147,7 @@
     "description": "All 100M+ open source places of Foursquare in a single PMTiles file.",
     "detail": "All 100M+ open source places of Foursquare in a single PMTiles file. Data source [FSQ](https://location.foursquare.com/products/places/), prepared by [wipfli](https://github.com/wipfli/foursquare-os-places-pmtiles)",
     "size": 100000000,
-    "visible": false,
+    "visible": true,
     "dataUrl": false,
     "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/config.json",
     "remoteDatasetConfigUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/remote-dataset-config.json"
@@ -160,7 +160,7 @@
     "description": "USA Population Mapbox Vector Tiles",
     "detail": "USA Population Mapbox Vector Tiles with total population per geometry and age statistics. Data source [census.gov](https://www.census.gov/data/datasets.html), prepared and hosted by [FSQ](https://location.foursquare.com)",
     "size": 10000,
-    "visible": false,
+    "visible": true,
     "dataUrl": false,
     "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/config.json",
     "remoteDatasetConfigUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/remote-dataset-config.json"
