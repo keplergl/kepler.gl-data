@@ -1,0 +1,140 @@
+{
+  "config": {
+    "mapState": {
+      "bearing": 25.071428571428584,
+      "dragRotate": true,
+      "isSplit": false,
+      "latitude": 37.75442653899353,
+      "longitude": -122.46184173337018,
+      "pitch": 52.58734369995226,
+      "zoom": 11.796960447134662
+    },
+    "mapStyle": {
+      "buildingLayer": {
+        "color": [20, 25, 29],
+        "isVisible": false,
+        "opacity": 0.7
+      },
+      "styleType": "dark-matter",
+      "topLayerGroups": {
+        "label": true
+      },
+      "visibleLayerGroups": {
+        "border": false,
+        "building": true,
+        "label": true,
+        "land": true,
+        "road": true,
+        "water": true
+      }
+    },
+    "visState": {
+      "filters": [],
+      "interactionConfig": {
+        "brush": {
+          "enabled": false,
+          "size": 0.5
+        },
+        "tooltip": {
+          "enabled": true,
+          "fieldsToShow": {
+            "fsq_places": [
+              { "name": "address", "format": null },
+              { "name": "admin_region", "format": null },
+              { "name": "country", "format": null },
+              { "name": "date_closed", "format": null },
+              { "name": "date_created", "format": null }
+            ]
+          }
+        }
+      },
+      "layerBlending": "normal",
+      "layers": [
+        {
+          "id": "t3frjce",
+          "type": "vectorTile",
+          "config": {
+            "dataId": "fsq_places",
+            "label": "FSQ Places PMTiles",
+            "color": [248, 149, 112],
+            "highlightColor": [252, 242, 26, 255],
+            "columns": {},
+            "isVisible": true,
+            "visConfig": {
+              "strokeColor": null,
+              "strokeOpacity": 0.8,
+              "radius": 1,
+              "radiusUnits": true,
+              "enable3d": false,
+              "stroked": false,
+              "transition": false,
+              "heightRange": [0, 500],
+              "elevationScale": 5,
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#4C0035",
+                  "#880030",
+                  "#B72F15",
+                  "#D6610A",
+                  "#EF9100",
+                  "#FFC300"
+                ]
+              },
+              "radiusByZoom": { "enabled": false, "stops": null },
+              "dynamicColor": false,
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#4C0035",
+                  "#880030",
+                  "#B72F15",
+                  "#D6610A",
+                  "#EF9100",
+                  "#FFC300"
+                ]
+              },
+              "sizeRange": [0, 10],
+              "strokeWidth": 0.5,
+              "radiusRange": [0, 1]
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [255, 255, 255],
+                "size": 18,
+                "offset": [0, 0],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [255, 0, 0, 255],
+                "background": false,
+                "backgroundColor": [0, 0, 200, 255]
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": { "name": "postcode", "type": "string" },
+            "colorScale": "ordinal",
+            "heightField": null,
+            "heightScale": "linear",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear",
+            "radiusField": null,
+            "radiusScale": "linear"
+          }
+        }
+      ],
+      "splitMaps": []
+    }
+  },
+  "version": "v1"
+}

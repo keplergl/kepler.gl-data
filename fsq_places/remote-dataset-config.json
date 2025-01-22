@@ -1,0 +1,18 @@
+{
+  "info": {
+    "id": "fsq_places",
+    "label": "fsq_places",
+    "format": "rows",
+    "type": "vector-tile"
+  },
+  "data": {
+    "fields": [],
+    "rows": []
+  },
+  "metadata": {
+    "type": "remote",
+    "remoteTileFormat": "pmtiles",
+    "tilesetDataUrl": "https://oliverwipfli.ch/data/foursquare-os-places-2024-11-20.pmtiles",
+    "tilesetMetadataUrl": "https://oliverwipfli.ch/data/foursquare-os-places-2024-11-20.pmtiles"
+  }
+}
