@@ -145,7 +145,7 @@
     "queryType": "sample",
     "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/preview.png",
     "description": "All 100M+ open source places of Foursquare in a single PMTiles file.",
-    "detail": "All 100M+ open source places of Foursquare in a single PMTiles file. Data source [FSQ](https://location.foursquare.com/products/places/), prepared by [wipfli](https://github.com/wipfli/foursquare-os-places-pmtiles)",
+    "detail": "With Foursquare's Open Source Places in a single PMTiles file, you can access free data to accelerate geospatial innovation and insights. Data source [FSQ](https://docs.foursquare.com/data-products/docs/fsq-places-open-source). View the Places OS Data Schemas for a full list of [available attributes](https://docs.foursquare.com/data-products/docs/places-os-data-schema).",
     "size": 100000000,
     "visible": true,
     "dataUrl": false,
