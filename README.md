@@ -47,7 +47,7 @@ The data provided in this repo is public and located at the following URLs:
 
 - [Foursquare Places (PMTiles)](./fsq_places)
 
-  All 100M+ open source places of Foursquare in a single PMTiles file. Data source [FSQ](https://location.foursquare.com/products/places/), prepared by [wipfli](https://github.com/wipfli/foursquare-os-places-pmtiles).
+  With Foursquare's Open Source Places in a single PMTiles file, you can access free data to accelerate geospatial innovation and insights. Data source [FSQ](https://docs.foursquare.com/data-products/docs/fsq-places-open-source). View the Places OS Data Schemas for a full list of [available attributes](https://docs.foursquare.com/data-products/docs/places-os-data-schema).
 
 - [Population tileset (MVT)](./mvt_population)
 
