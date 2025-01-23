@@ -12,7 +12,7 @@
   "metadata": {
     "type": "remote",
     "remoteTileFormat": "pmtiles",
-    "tilesetDataUrl": "https://oliverwipfli.ch/data/foursquare-os-places-2024-11-20.pmtiles",
-    "tilesetMetadataUrl": "https://oliverwipfli.ch/data/foursquare-os-places-2024-11-20.pmtiles"
+    "tilesetDataUrl": "https://fsq-os-places-us-east-1.s3.us-east-1.amazonaws.com/release/vector-tiles/latest/fsq-os-places.pmtiles",
+    "tilesetMetadataUrl": "https://fsq-os-places-us-east-1.s3.us-east-1.amazonaws.com/release/vector-tiles/latest/fsq-os-places.pmtiles"
   }
 }

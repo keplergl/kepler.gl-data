@@ -1,13 +1,15 @@
 {
   "config": {
     "mapState": {
-      "bearing": 25.071428571428584,
-      "dragRotate": true,
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 37.79331638570289,
+      "longitude": -122.41999158105818,
+      "pitch": 0,
       "isSplit": false,
-      "latitude": 37.75442653899353,
-      "longitude": -122.46184173337018,
-      "pitch": 52.58734369995226,
-      "zoom": 11.796960447134662
+      "zoom": 14.1,
+      "maxZoom": 20,
+      "minZoom": 14
     },
     "mapStyle": {
       "buildingLayer": {
@@ -35,14 +37,17 @@
           "enabled": false,
           "size": 0.5
         },
+        "geocoder": {
+          "enabled": true
+        },
         "tooltip": {
           "enabled": true,
           "fieldsToShow": {
             "fsq_places": [
-              { "name": "address", "format": null },
-              { "name": "admin_region", "format": null },
               { "name": "country", "format": null },
-              { "name": "date_closed", "format": null },
+              { "name": "region", "format": null },
+              { "name": "address", "format": null },
+              { "name": "postcode", "format": null },
               { "name": "date_created", "format": null }
             ]
           }
@@ -63,7 +68,7 @@
             "visConfig": {
               "strokeColor": null,
               "strokeOpacity": 0.8,
-              "radius": 1,
+              "radius": 1.5,
               "radiusUnits": true,
               "enable3d": false,
               "stroked": false,
