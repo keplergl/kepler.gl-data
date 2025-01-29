@@ -1,17 +1,5 @@
 [
   {
-    "id": "world_flights",
-    "label": "All the Flights in the World",
-    "queryType": "sample",
-    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_s.png",
-    "description": "Two hours of flight data collected by OpenSky Network on September 3rd 2019",
-    "detail": "The dataset contains two hours of flight data collected using the live API of [OpenSky Network](https://opensky-network.org). The color of the flights is based on country of origin. 18 thousands flights are recorded during the two hour period. The path drops over the seas due to lack of satellite coverage. Airline info is added to each flight by joining with data from [airlinecodes.co.uk](http://www.airlinecodes.co.uk/callsignres.asp?callsign=&submit=Submit)",
-    "size": 12938,
-    "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
-    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/config_soei4h.json"
-  },
-  {
     "id": "earthquakes",
     "label": "California Earthquakes",
     "queryType": "sample",
@@ -46,6 +34,44 @@
     "visible": true,
     "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sfcontour/data.json",
     "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sfcontour/config.json"
+  },
+  {
+    "id": "nyc_earnings",
+    "label": "Block-level Earnings New York City (GeoArrow)",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/nyc-earnings.png",
+    "description": "Block-level Earnings New York City (2002-14) from Longitudinal Employer-Household Dynamics (LEHD). Geographic units: 2010 Census blocks.",
+    "detail": " This GeoArrow dataset contains block-level earnings data of New York City from 2002 to 2014. The map is a Quantile map based on the total number of jobs in year 2000-2002. Data is prepared by [the Center for Spatial Data Science at University of Chicago](https://spatial.uchicago.edu). Data source [page](https://geodacenter.github.io/data-and-lab/LEHD_Data/).",
+    "size": 108487,
+    "visible": true,
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/data.arrow",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/config.json"
+  },
+  {
+    "id": "fsq_places",
+    "label": "Foursquare Places (PMTiles)",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/preview.png",
+    "description": "All 100M+ open source places of Foursquare in a single PMTiles file.",
+    "detail": "With Foursquare's Open Source Places in a single PMTiles file, you can access free data to accelerate geospatial innovation and insights. Data source [FSQ](https://docs.foursquare.com/data-products/docs/fsq-places-open-source). View the Places OS Data Schemas for a full list of [available attributes](https://docs.foursquare.com/data-products/docs/places-os-data-schema).",
+    "size": 100000000,
+    "visible": true,
+    "dataUrl": false,
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/config.json",
+    "remoteDatasetConfigUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/remote-dataset-config.json"
+  },
+  {
+    "id": "mvt_population",
+    "label": "Population (MVT)",
+    "queryType": "sample",
+    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/preview.png",
+    "description": "USA Population Mapbox Vector Tiles",
+    "detail": "USA Population Mapbox Vector Tiles with total population per geometry and age statistics. Data source [census.gov](https://www.census.gov/data/datasets.html), prepared and hosted by [FSQ](https://location.foursquare.com)",
+    "size": 10000,
+    "visible": true,
+    "dataUrl": false,
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/config.json",
+    "remoteDatasetConfigUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/remote-dataset-config.json"
   },
   {
     "id": "nyc_census",
@@ -128,41 +154,15 @@
     "keplergl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/usdot/keplergl.json"
   },
   {
-    "id": "nyc_earnings",
-    "label": "Block-level Earnings New York City (GeoArrow)",
+    "id": "world_flights",
+    "label": "All the Flights in the World",
     "queryType": "sample",
-    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/nyc-earnings.png",
-    "description": "Block-level Earnings New York City (2002-14) from Longitudinal Employer-Household Dynamics (LEHD). Geographic units: 2010 Census blocks.",
-    "detail": " This GeoArrow dataset contains block-level earnings data of New York City from 2002 to 2014. The map is a Quantile map based on the total number of jobs in year 2000-2002. Data is prepared by [the Center for Spatial Data Science at University of Chicago](https://spatial.uchicago.edu). Data source [page](https://geodacenter.github.io/data-and-lab/LEHD_Data/).",
-    "size": 108487,
+    "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_s.png",
+    "description": "Two hours of flight data collected by OpenSky Network on September 3rd 2019",
+    "detail": "The dataset contains two hours of flight data collected using the live API of [OpenSky Network](https://opensky-network.org). The color of the flights is based on country of origin. 18 thousands flights are recorded during the two hour period. The path drops over the seas due to lack of satellite coverage. Airline info is added to each flight by joining with data from [airlinecodes.co.uk](http://www.airlinecodes.co.uk/callsignres.asp?callsign=&submit=Submit)",
+    "size": 12938,
     "visible": true,
-    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/data.arrow",
-    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/nyc_earnings/config.json"
-  },
-  {
-    "id": "fsq_places",
-    "label": "Foursquare Places (PMTiles)",
-    "queryType": "sample",
-    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/preview.png",
-    "description": "All 100M+ open source places of Foursquare in a single PMTiles file.",
-    "detail": "All 100M+ open source places of Foursquare in a single PMTiles file. Data source [FSQ](https://location.foursquare.com/products/places/), prepared by [wipfli](https://github.com/wipfli/foursquare-os-places-pmtiles)",
-    "size": 100000000,
-    "visible": false,
-    "dataUrl": false,
-    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/config.json",
-    "remoteDatasetConfigUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/fsq_places/remote-dataset-config.json"
-  },
-  {
-    "id": "mvt_population",
-    "label": "Population (MVT)",
-    "queryType": "sample",
-    "imageUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/preview.png",
-    "description": "USA Population Mapbox Vector Tiles",
-    "detail": "USA Population Mapbox Vector Tiles with total population per geometry and age statistics. Data source [census.gov](https://www.census.gov/data/datasets.html), prepared and hosted by [FSQ](https://location.foursquare.com)",
-    "size": 10000,
-    "visible": false,
-    "dataUrl": false,
-    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/config.json",
-    "remoteDatasetConfigUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/mvt_population/remote-dataset-config.json"
+    "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
+    "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/config_soei4h.json"
   }
 ]
