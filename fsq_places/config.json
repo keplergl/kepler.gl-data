@@ -7,9 +7,7 @@
       "longitude": -122.41999158105818,
       "pitch": 0,
       "isSplit": false,
-      "zoom": 14.1,
-      "maxZoom": 20,
-      "minZoom": 14
+      "zoom": 14.1
     },
     "mapStyle": {
       "buildingLayer": {
