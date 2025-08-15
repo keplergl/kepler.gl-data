@@ -1,0 +1,18 @@
+{
+  "info": {
+    "id": "ncep_wms_conus_cref_qcd",
+    "label": "NCEP CONUS Composite Reflectivity (WMS)",
+    "format": "rows",
+    "type": "raster-tile"
+  },
+  "data": {
+    "fields": [],
+    "rows": []
+  },
+  "metadata": {
+    "type": "remote",
+    "remoteTileFormat": "wms",
+    "tilesetDataUrl": "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_cref_qcd/ows",
+    "tilesetMetadataUrl": "https://opengeo.ncep.noaa.gov/geoserver/conus/conus_cref_qcd/ows"
+  }
+}
