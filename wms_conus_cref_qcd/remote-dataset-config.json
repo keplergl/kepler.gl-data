@@ -3,7 +3,7 @@
     "id": "ncep_wms_conus_cref_qcd",
     "label": "NCEP CONUS Composite Reflectivity (WMS)",
     "format": "rows",
-    "type": "raster-tile"
+    "type": "wms-tile"
   },
   "data": {
     "fields": [],
