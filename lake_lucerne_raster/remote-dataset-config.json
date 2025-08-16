@@ -1,0 +1,18 @@
+{
+  "info": {
+    "id": "lake_lucerne_raster",
+    "label": "Lake Lucerne Historic (Raster PMTiles)",
+    "format": "rows",
+    "type": "raster-tile"
+  },
+  "data": {
+    "fields": [],
+    "rows": []
+  },
+  "metadata": {
+    "type": "remote",
+    "remoteTileFormat": "pmtiles",
+    "tilesetDataUrl": "https://4sq-studio-public.s3.us-west-2.amazonaws.com/statics/keplergl/raster/lake-lucerne-historic.pmtiles",
+    "tilesetMetadataUrl": "https://4sq-studio-public.s3.us-west-2.amazonaws.com/statics/keplergl/raster/lake-lucerne-historic.pmtiles"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "vzynhct",
+          "type": "rasterTile",
+          "config": {
+            "dataId": "xpyyshxam",
+            "label": "lake-lucerne-historic.pmtiles",
+            "color": [137, 218, 193],
+            "highlightColor": [252, 242, 26, 255],
+            "columns": {},
+            "isVisible": true,
+            "visConfig": {
+              "preset": "trueColor",
+              "useSTACSearching": false,
+              "stacSearchProvider": "earth-search",
+              "startDate": "2020-02-02",
+              "endDate": "2020-03-02",
+              "dynamicColor": false,
+              "colormapId": "cfastie",
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#4C0035",
+                  "#880030",
+                  "#B72F15",
+                  "#D6610A",
+                  "#EF9100",
+                  "#FFC300"
+                ]
+              },
+              "linearRescalingFactor": [0, 1],
+              "nonLinearRescaling": true,
+              "gammaContrastFactor": 1,
+              "sigmoidalContrastFactor": 0,
+              "sigmoidalBiasFactor": 0.5,
+              "saturationValue": 1,
+              "filterEnabled": false,
+              "filterRange": [-1, 1],
+              "opacity": 1,
+              "_stacQuery": null,
+              "singleBandName": null,
+              "enableTerrain": true,
+              "enableTerrainTopView": false
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [255, 255, 255],
+                "size": 18,
+                "offset": [0, 0],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [255, 0, 0, 255],
+                "background": false,
+                "backgroundColor": [0, 0, 200, 255]
+              }
+            ]
+          },
+          "visualChannels": {}
+        }
+      ],
+      "effects": [],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": { "xpyyshxam": [] },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": { "size": 0.5, "enabled": false },
+        "geocoder": { "enabled": false },
+        "coordinate": { "enabled": false }
+      },
+      "layerBlending": "normal",
+      "overlayBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": { "currentTime": null, "speed": 1 },
+      "editor": { "features": [], "visible": true }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 47.037078902274,
+      "longitude": 8.348532293801638,
+      "pitch": 0,
+      "zoom": 13.589306829461403,
+      "isSplit": false,
+      "isViewportSynced": true,
+      "isZoomLocked": false,
+      "splitMapViewports": []
+    },
+    "mapStyle": {
+      "styleType": "dark-matter",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        15.035172933000911, 15.035172933000911, 15.035172933000911
+      ],
+      "backgroundColor": [0, 0, 0],
+      "mapStyles": {}
+    },
+    "uiState": { "mapControls": { "mapLegend": { "active": false } } }
+  }
+}
