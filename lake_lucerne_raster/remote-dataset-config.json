@@ -11,6 +11,7 @@
   },
   "metadata": {
     "type": "remote",
+    "pmtilesType": "raster",
     "remoteTileFormat": "pmtiles",
     "tilesetDataUrl": "https://4sq-studio-public.s3.us-west-2.amazonaws.com/statics/keplergl/raster/lake-lucerne-historic.pmtiles",
     "tilesetMetadataUrl": "https://4sq-studio-public.s3.us-west-2.amazonaws.com/statics/keplergl/raster/lake-lucerne-historic.pmtiles"
